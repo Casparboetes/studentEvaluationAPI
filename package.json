@@ -1,0 +1,8 @@
+{
+  "name": "studentEvaluationAPI",
+  "version": "1.0.0",
+  "description": "RESTFul API to manage Student Evaluations",
+  "main": "index.js",
+  "author": "Caspar Boetes",
+  "license": "MIT"
+}
