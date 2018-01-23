@@ -4,5 +4,8 @@
   "description": "RESTFul API to manage Student Evaluations",
   "main": "index.js",
   "author": "Caspar Boetes",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }
