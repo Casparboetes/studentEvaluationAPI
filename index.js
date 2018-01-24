@@ -1,6 +1,6 @@
 const express = require('express')
 const bodyParser = require('body-parser')
-const { Student } = require('./models')
+const passport = require('./config/auth')
 const { students } = require('./routes')
 
 
@@ -11,6 +11,7 @@ let app = express()
 app
   .use(bodyParser.urlencoded({ extended: true }))
   .use(bodyParser.json())
+  .use(passport.initialize())
 
   // Our students routes
   .use(students)
