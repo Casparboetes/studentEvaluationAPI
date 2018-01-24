@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Batch 1",
+    "startDate": "27-01-2018",
+    "endDate": "27-03-2018"
+  },
+  {
+    "name": "Batch 2",
+    "startDate": "27-02-2018",
+    "endDate": "27-04-2018"
+  },
+  {
+    "name": "Bacth 3",
+    "startDate": "27-03-2018",
+    "endDate": "27-05-2018"
+  },
+  {
+    "name": "Bacth 4",
+    "startDate": "27-04-2018",
+    "endDate": "27-06-2018"
+  },
+  {
+    "name": "Batch 5",
+    "startDate": "27-05-2018",
+    "endDate": "27-07-2018"
+  },
+  {
+    "name": "Bacth 6",
+    "startDate": "27-06-2018",
+    "endDate": "27-08-2018"
+  },
+]
