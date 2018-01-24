@@ -13,17 +13,52 @@ router.get('/students', (req, res, next) => {
   .get('/students/:id', (req, res, next) => {
     const id = req.params.id
     Student.findById(id)
-      .then((recipe) => {
-        if (!recipe) { return next() }
-        res.json(recipe)
+      .then((student) => {
+        if (!student) { return next() }
+        res.json(student)
       })
       .catch((error) => next(error))
   })
   .post('/students', (req, res, next) => {
-    let newRecipe = req.body
+    let newStudent = req.body
 
     Student.create(newStudent)
-      .then((recipe) => res.json(recipe))
+      .then((student) => res.json(student))
+      .catch((error) => next(error))
+  })
+
+  .put('/students/:id', (req, res, next) => {
+    const studentId = req.params.id
+    let update = req.body
+
+    Student.findOneAndUpdate(studentId,update)
+      .then((student) => {
+        if (!student) { return next() }
+        res.json(student)
+      })
+      .catch((error) => next(error))
+  })
+
+  .patch('/students/:id', (req, res, next) => {
+    const studentId = req.params.id
+    let update = req.body
+
+    Student.findOneAndUpdate(studentId,update)
+      .then((student) => {
+        if (!student) { return next() }
+        res.json(student)
+      })
+      .catch((error) => next(error))
+  })
+
+  .delete('/students/:id', (req, res, next) => {
+    const studentId = req.params.id
+
+    Student.findOneAndRemove(studentId)
+      .then((student) => {
+        if (!student) { return next() }
+        res.json(student)
+      })
       .catch((error) => next(error))
   })
 
