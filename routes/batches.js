@@ -1,16 +1,16 @@
 const router = require('express').Router()
 const { Batch } = require('../models')
 
-router.get('/batchs', (req, res, next) => {
+router.get('/batch', (req, res, next) => {
   Batch.find()
-    // Newest batchs first
+    // Newest batch first
     .sort({ createdAt: -1 })
     // Send the data in JSON format
-    .then((batchs) => res.json(batchs))
+    .then((batch) => res.json(batch))
     // Throw a 500 error if something goes wrong
     .catch((error) => next(error))
   })
-  .get('/batchs/:id', (req, res, next) => {
+  .get('/batch/:id', (req, res, next) => {
     const id = req.params.id
     Batch.findById(id)
       .then((batch) => {
@@ -19,7 +19,7 @@ router.get('/batchs', (req, res, next) => {
       })
       .catch((error) => next(error))
   })
-  .post('/batchs', (req, res, next) => {
+  .post('/batch', (req, res, next) => {
     let newBatch = req.body
 
     Batch.create(newBatch)
@@ -27,7 +27,7 @@ router.get('/batchs', (req, res, next) => {
       .catch((error) => next(error))
   })
 
-  .put('/batchs/:id', (req, res, next) => {
+  .put('/batch/:id', (req, res, next) => {
     const batchId = req.params.id
     let update = req.body
 
@@ -39,7 +39,7 @@ router.get('/batchs', (req, res, next) => {
       .catch((error) => next(error))
   })
 
-  .patch('/batchs/:id', (req, res, next) => {
+  .patch('/batch/:id', (req, res, next) => {
     const batchId = req.params.id
     let update = req.body
 
@@ -51,7 +51,7 @@ router.get('/batchs', (req, res, next) => {
       .catch((error) => next(error))
   })
 
-  .delete('/batchs/:id', (req, res, next) => {
+  .delete('/batch/:id', (req, res, next) => {
     const batchId = req.params.id
 
     Batch.findOneAndRemove(batchId)

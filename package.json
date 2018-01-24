@@ -1,8 +1,9 @@
 {
-  "name": "recipes-api",
+  "name": "studentEvaluationAPI",
   "version": "1.0.0",
-  "description": "RESTful API to manage Recipes",
+  "description": "RESTFul API to manage Student Evaluations",
   "main": "index.js",
+  "author": "Caspar Boetes",
   "license": "MIT",
   "scripts": {
     "start": "node .",
@@ -20,8 +21,8 @@
     "passport-local-mongoose": "^4.4.0"
   },
   "devDependencies": {
-     "nodemon": "^1.12.1",
     "eslint-plugin-import": "^2.8.0",
+    "nodemon": "^1.12.1",
     "superagent": "^3.8.2"
   }
 }
