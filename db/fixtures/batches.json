@@ -1,32 +1,135 @@
 [
   {
     "name": "Batch 1",
-    "startDate": "27-01-2018",
-    "endDate": "27-03-2018"
+    "startDate": "01/27//2018",
+    "endDate": "03/27//2018",
+    "students": [
+                  {
+                    "name": "Arthur Zeeman",
+                    "photo": "http://cd.sseu.re/mixed-seafood-paella.jpeg",
+                    "green": true,
+                    "yellow": false,
+                    "red": false,
+                    "remark": "Remarks...",
+                    "evaluationDate": "01/27//2018"
+                  },
+                  {
+                    "name": "Jan Visser",
+                    "photo": "http://cd.sseu.re/mixed-seafood-paella.jpeg",
+                    "green": true,
+                    "yellow": false,
+                    "red": false,
+                    "remark": "Remarks...",
+                    "evaluationDate": "01/27//2018"
+                  },
+                  {
+                    "name": "Klaas Zwager",
+                    "photo": "http://cd.sseu.re/mixed-seafood-paella.jpeg",
+                    "green": true,
+                    "yellow": false,
+                    "red": false,
+                    "remark": "Remarks...",
+                    "evaluationDate": "01/27//2018"
+                  },
+                  {
+                    "name": "Marije Teksta",
+                    "photo": "http://cd.sseu.re/mixed-seafood-paella.jpeg",
+                    "green": false,
+                    "yellow": true,
+                    "red": false,
+                    "remark": "Remarks...",
+                    "evaluationDate": "01/27//2018"
+                  },
+                  {
+                    "name": "Caspar Boetes",
+                    "photo": "http://cd.sseu.re/mixed-seafood-paella.jpeg",
+                    "green": false,
+                    "yellow": true,
+                    "red": false,
+                    "remark": "Remarks...",
+                    "evaluationDate": "01/27//2018"
+                  },
+                  {
+                    "name": "Boris Boetes",
+                    "photo": "http://cd.sseu.re/mixed-seafood-paella.jpeg",
+                    "green": false,
+                    "yellow": true,
+                    "red": false,
+                    "remark": "Remarks...",
+                    "evaluationDate": "01/27//2018"
+                  },
+                  {
+                    "name": "Piet Heyn",
+                    "photo": "http://cd.sseu.re/mixed-seafood-paella.jpeg",
+                    "green": false,
+                    "yellow": false,
+                    "red": true,
+                    "remark": "Remarks...",
+                    "evaluationDate": "01/27//2018"
+                  },
+                  {
+                    "name": "Ben Ziggo",
+                    "photo": "http://cd.sseu.re/mixed-seafood-paella.jpeg",
+                    "green": false,
+                    "yellow": false,
+                    "red": true,
+                    "remark": "Remarks...",
+                    "evaluationDate": "01/27//2018"
+                  },
+                  {
+                    "name": "Johan Strater",
+                    "photo": "http://cd.sseu.re/mixed-seafood-paella.jpeg",
+                    "green": false,
+                    "yellow": false,
+                    "red": true,
+                    "remark": "Remarks...",
+                    "evaluationDate": "01/27//2018"
+                  }
+                ]
+
   },
   {
     "name": "Batch 2",
-    "startDate": "27-02-2018",
-    "endDate": "27-04-2018"
-  },
-  {
-    "name": "Bacth 3",
-    "startDate": "27-03-2018",
-    "endDate": "27-05-2018"
-  },
-  {
-    "name": "Bacth 4",
-    "startDate": "27-04-2018",
-    "endDate": "27-06-2018"
-  },
-  {
-    "name": "Batch 5",
-    "startDate": "27-05-2018",
-    "endDate": "27-07-2018"
-  },
-  {
-    "name": "Bacth 6",
-    "startDate": "27-06-2018",
-    "endDate": "27-08-2018"
-  },
+    "startDate": "03/27//2018",
+    "endDate": "05/27/2018",
+    "students": [
+                  {
+                    "name": "Alexander Max",
+                    "photo": "http://cd.sseu.re/mixed-seafood-paella.jpeg",
+                    "green": true,
+                    "yellow": false,
+                    "red": false,
+                    "remark": "Remarks...",
+                    "evaluationDate": "01/27//2018"
+                  },
+                  {
+                    "name": "Freek de Jonge",
+                    "photo": "http://cd.sseu.re/mixed-seafood-paella.jpeg",
+                    "green": true,
+                    "yellow": false,
+                    "red": false,
+                    "remark": "Remarks...",
+                    "evaluationDate": "01/27//2018"
+                  },
+                  {
+                    "name": "Jan Alleman",
+                    "photo": "http://cd.sseu.re/mixed-seafood-paella.jpeg",
+                    "green": false,
+                    "yellow": false,
+                    "red": true,
+                    "remark": "Remarks...",
+                    "evaluationDate": "01/27//2018"
+                  },
+                  {
+                    "name": "John Doe",
+                    "photo": "http://cd.sseu.re/mixed-seafood-paella.jpeg",
+                    "green": false,
+                    "yellow": true,
+                    "red": false,
+                    "remark": "Remarks...",
+                    "evaluationDate": "01/27//2018"
+                  }
+                ]
+
+  }
 ]
