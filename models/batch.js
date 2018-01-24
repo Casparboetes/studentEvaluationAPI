@@ -9,4 +9,4 @@ const batchSchema = new Schema({
   updatedAt: { type: Date, default: Date.now }
 })
 
-module.exports = mongoose.model('batches', bacthSchema)
+module.exports = mongoose.model('batches', batchSchema)
