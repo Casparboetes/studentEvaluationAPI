@@ -1,6 +1,6 @@
 const students = require('./students')
 const users = require('./users')
-const bacthes = require('./bacthes')
+const bacthes = require('./batches')
 
 module.exports = {
   students,
