@@ -9,12 +9,9 @@
     "start": "node ."
   },
   "dependencies": {
-<<<<<<< HEAD
+
     "body-parser": "^1.18.2",
-    "express": "^4.16.2"
-=======
     "express": "^4.16.2",
     "mongoose": "^5.0.1"
->>>>>>> a074211ecf0e4ccf13947e58dccf40a8480d5023
   }
 }
